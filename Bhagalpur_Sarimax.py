@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
 import matplotlib.pyplot as plt
 import pandas as pd
 from statsmodels.tsa.statespace.sarimax import SARIMAX
