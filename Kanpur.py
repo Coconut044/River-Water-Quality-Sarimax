@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 from statsmodels.tsa.statespace.sarimax import SARIMAX
-
 # Load dataset
 data = pd.read_csv(r"Kanpur.csv", parse_dates=['Date'], index_col='Date')
 
