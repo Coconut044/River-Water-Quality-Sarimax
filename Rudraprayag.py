@@ -4,7 +4,6 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 
 # Load dataset
 data = pd.read_csv(r"Rudraprayag.csv", parse_dates=['Date'], index_col='Date')
-
 # Ensure the data index is datetime and sort it
 data = data.sort_index()
 
